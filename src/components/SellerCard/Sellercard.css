@@ -1,0 +1,126 @@
+.seller-card {
+  padding: 24px;
+  border-radius: 2px;
+  border: 1px solid #bfc0c3;
+  width: 360px;
+  margin: 30px 0 0 16px;
+}
+
+.seller-heading {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.seller-name {
+  letter-spacing: normal;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.1;
+  font-size: 20px;
+  color: #57585a;
+  margin: 10px;
+  padding: 0;
+}
+
+.seller-features{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 24px;
+    gap: 16px;
+    color:#0071ce
+}
+.seller-feature-type{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.seller-features span{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    letter-spacing: normal;
+    font-style: normal;
+    line-height: 1.29;
+    color: black;
+}
+.seller-feature-icons{
+    display:inline-block ;
+    margin-right: 8px;
+}
+
+.seller-card-contact {
+  width: 100%;
+  margin: 30px auto;
+}
+
+.seller-email-send-btn {
+  width: 100%;
+}
+.seller-card-contact .seller-contact-icons {
+  margin: auto 5px;
+}
+.seller-card-contact .seller-email-send-btn {
+  background: #c82814;
+  box-shadow: 0 1px 2px #af4d41;
+  border-radius: 4px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  height: 44px;
+  padding: 0 20px;
+  text-align: center;
+  transition: background-color 0.3s ease;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+.seller-card-contact .seller-phone-call-btn {
+  display: block;
+
+  height: 44px;
+  margin-bottom: 8px;
+  border-radius: 4px;
+
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(16, 119, 212);
+  text-align: center;
+  margin-top: 16px;
+  width: 100%;
+  color: rgb(16, 119, 212);
+  font-size: 14px;
+  padding: 0px 0px 0px 8px;
+  font-weight: 600;
+  line-height: 42px;
+}
+
+.seller-card-links{
+    display: flex;
+    flex-direction: column;
+}
+.seller-card-links article{
+    display: flex;
+    align-items: flex-start;
+}
+        
+.seller-card-link-icons{
+    color: black;
+    margin-right: 8px;
+}
+.seller-location-link{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    letter-spacing: normal;
+    font-style: normal;
+    color: #0071ce;
+}
+.seller-location-link:hover{
+    text-decoration: underline !important ;
+    color:#0071ce;
+}

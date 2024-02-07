@@ -1,0 +1,141 @@
+/* Common styles for the navbar */
+.navbar {
+  box-shadow: 0 0 10px 0 rgb(180, 178, 178);
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff; /* Background color for the navbar */
+}
+
+/* Styles for the brand/logo */
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  margin-left: 16px; /* Adjust the margin as needed */
+}
+
+.navbar-brand img {
+  width: 50%;
+  height: auto; /* Maintain the aspect ratio */
+  margin-right: 8px; /* Adjust the margin as needed */
+}
+
+/* Styles for the menu items and button */
+.nav-items {
+  display: flex;
+  align-items: center;
+}
+
+.nav-item {
+  margin: 0 8px; /* Adjust the margin as needed */
+}
+
+.nav-link {
+  color: #002539;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.2em;
+  text-decoration: none;
+}
+
+.btn {
+  padding: 5px 15px; /* Adjust the padding as needed */
+  background-color: #fff;
+  color: #002539;
+  border: 3px solid transparent;
+  border-radius: 5px; /* Add rounded corners */
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #002539;
+  color: #fff;
+  border-color: #002539;
+  text-decoration: none;
+}
+
+/* Dropdown menu styles */
+.dropdown-menu {
+  padding: 16px; /* Adjust the padding as needed */
+  font-size: 14px; /* Match the font size with the other menu items */
+  line-height: 1.2em;
+}
+
+.dropdown-menu-item {
+  margin: 8px 0; /* Adjust the margin as needed */
+  display: flex;
+  align-items: center;
+}
+.navbar-collapse {
+  flex-grow: 0;
+  transition: all ease-in-out 0.3s;
+}
+/* Media query for responsiveness */
+
+@media (width <= 992px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    height: auto; /* Allow the navbar to expand as needed */
+  }
+
+  .nav-items {
+    margin-top: 16px; /* Add some spacing below the logo */
+  }
+
+  .navbar-brand {
+    width: 50%;
+    margin-left: 150px;
+    margin-right: 100px; /* Center the logo within the navbar */
+  }
+  .navbar-brand img {
+    margin: auto;
+  }
+}
+@media (width<=637px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    height: auto; /* Allow the navbar to expand as needed */
+  }
+
+  .nav-items {
+    margin-top: 16px; /* Add some spacing below the logo */
+  }
+
+  .navbar-brand {
+    width: 40%;
+    /* Center the logo within the navbar */
+  }
+  .navbar-brand img {
+    margin: auto;
+    width: 100%;
+  }
+}
+@media (width<=576px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    height: auto; /* Allow the navbar to expand as needed */
+  }
+
+  .nav-items {
+    margin-top: 16px; /* Add some spacing below the logo */
+  }
+
+  .navbar-brand {
+    margin-left: 0px;
+    margin-right: 20px;
+    width: 120px;
+    /* Center the logo within the navbar */
+  }
+  .navbar-brand img {
+    margin: auto;
+    width: 100%;
+  }
+}

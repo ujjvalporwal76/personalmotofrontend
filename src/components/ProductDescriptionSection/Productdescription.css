@@ -1,0 +1,31 @@
+.product-description-box {
+  border-top: 1px solid #eee;
+  clear: both;
+  color: #333;
+  font-size: 14px;
+  line-height: 23px;
+  padding: 16px 0;
+  margin: 10px 30px;
+  width: 80%;
+}
+
+.product-full-description {
+  font-size: 14px;
+  letter-spacing: -0.24px;
+  color: #040711;
+  margin-bottom: 16px;
+}
+@media (width< 1024px) {
+  .product-full-details-box {
+    width: 100%;
+    position: sticky;
+  }
+}
+
+@media (min-width: 768px) {
+  .product-description-heading {
+    color: #040711;
+    font-size: 22px;
+    padding: 0 0 16px;
+  }
+}

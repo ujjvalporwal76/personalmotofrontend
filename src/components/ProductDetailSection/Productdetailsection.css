@@ -1,0 +1,90 @@
+.details-main-column {
+  margin: 20px;
+}
+
+.details-parameters-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.details-heading {
+  color: #040711;
+  font-size: 32px;
+  padding: 0 0 16px;
+  font-weight: 600;
+  margin-left: 35px;
+}
+.details-parameters-list {
+  font-size: 13px;
+  line-height: 23px;
+}
+
+.details-parameters-list-item {
+  clear: both;
+  margin-bottom: 15px;
+}
+.details-parameters-label {
+  float: left;
+  width: 150px;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial,
+    sans-serif;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 18px;
+  color: #66676c;
+  font-weight: 600;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 10px;
+}
+
+.details-parameters-value {
+  font-size: 14px;
+  line-height: 18px;
+
+  font-weight: 600;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  float: left;
+  font-weight: normal;
+  max-width: 150px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@media (min-width: 1025px) {
+  .details-parameters-value {
+    max-width: 200px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .details-parameters-list {
+    float: left;
+    width: 50%;
+  }
+}
+@media (min-width: 1025px) {
+  .details-parameters {
+    float: left;
+    padding: 16px 0;
+    width: 840px;
+  }
+}
+@media (min-width: 1025px) {
+  .details-main-column {
+    float: left;
+    width: 840px;
+  }
+}
+
+@media (width< 576px) {
+  .details-heading {
+    color: #040711;
+    font-size: 22px;
+    padding: 0 0 16px;
+  }
+}

@@ -1,0 +1,144 @@
+/* Common styles for the footer */
+#home-footer {
+  width: 100%;
+  background: #ebecef;
+  padding: 48px 0;
+}
+
+.home-footer-section {
+  margin: 0 auto;
+  max-width: 1240px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.home-footer-section h6 {
+  font-size: 20px;
+  line-height: 22px;
+  font-weight: 500;
+  color: #020309;
+  margin: 0;
+  margin-bottom: 16px;
+  vertical-align: baseline;
+}
+
+.home-footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.home-footer-social {
+  color: #020309;
+}
+
+.home-footer-social-link {
+  text-decoration: none;
+  color: #020309;
+  margin: 5px 10px;
+  font-weight: 350;
+}
+
+.home-footer-feature-name,
+.home-footer-service-name,
+.home-footer-info-name {
+  font-size: 12px;
+  line-height: 14px;
+  color: #020309;
+  margin: 0;
+  margin-bottom: 16px;
+}
+
+.home-footer-feature-name-span,
+.home-footer-service-name-span,
+.home-footer-info-name-span {
+  font-size: 12px;
+  line-height: 14px;
+  color: #020309;
+}
+
+.home-footer-feature-link,
+.home-footer-service-link,
+.home-footer-info-link {
+  text-decoration: none;
+  color: #020309;
+}
+
+.home-footer-customer-service-box {
+  margin-top: 40px;
+}
+
+.customer-service-detail {
+  line-height: 16px;
+  font-size: 14px;
+  color: #020309;
+  margin: 0;
+  font-weight: 600;
+  white-space: pre-wrap;
+}
+
+.home-footer-section a:hover {
+  text-decoration: underline;
+}
+
+#footer-section-divider {
+  margin: 30px 0;
+  display: flex;
+  height: 1px;
+  width: 100%;
+  border-top: 1px solid #dcdde0;
+}
+
+.home-footer-app-section {
+  color: #020309;
+  margin: auto;
+}
+
+.home-footer-app-box {
+  display: inline-block;
+  margin: 10px;
+}
+
+.home-footer-app-show {
+  margin: 20px auto;
+  font-size: 18px;
+  text-align: center;
+}
+
+.home-footer-app-logo {
+  margin: auto;
+  max-width: 100%; /* Ensure the image doesn't exceed its container */
+  border-radius: 5px;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 992px) {
+  .home-footer-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .home-footer-feature {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .home-footer-social,
+  .home-footer-feature,
+  .home-footer-services,
+  .home-footer-info {
+    text-align: center;
+  }
+
+  .home-footer-app-logo {
+    height: 50px;
+    width: 150px;
+  }
+}
+
+@media (max-width: 576px) {
+  .home-footer-section {
+    padding: 24px 0;
+  }
+}

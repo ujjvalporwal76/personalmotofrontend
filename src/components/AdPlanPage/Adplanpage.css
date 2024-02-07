@@ -1,0 +1,125 @@
+.plan-page {
+  width: 100%;
+}
+.ad-plan-row {
+  margin-left: 18%;
+  margin-bottom: 100px;
+}
+.ant-col-16:first-of-type {
+  margin-top: 100px;
+}
+.ant-col-16 {
+  margin-top: 10px;
+}
+.ant-card {
+  width: 100%;
+}
+
+.ant-card {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.plan-days {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 22px;
+  margin-bottom: 5px;
+}
+.ant-card-selected {
+  -webkit-box-align: center;
+  border: 1px solid rgb(0, 113, 206);
+  border-radius: 4px;
+  cursor: pointer;
+  position: relative;
+  box-sizing: border-box;
+  padding: 24px;
+  background-color: rgb(236, 245, 254);
+  box-shadow: rgb(0, 113, 206) 0px 0px 0px 1px inset;
+  width: 100%;
+  min-width: 270px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.plan-days-span {
+  color: rgb(102, 103, 108);
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.plan-price {
+  font-size: 20px;
+  line-height: 22px;
+  font-weight: 500;
+}
+.plan-price-total {
+  color: rgb(2, 3, 9);
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial,
+    sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 14px;
+  padding-top: 4px;
+}
+.plan-cancel-btn,
+.plan-confirm-btn {
+  float: right;
+}
+.plan-confirm-btn {
+  float: right;
+  border-radius: 4px;
+  letter-spacing: 0.7px;
+  line-height: 20px;
+  padding-left: 32px;
+  padding-right: 32px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  --buttonColor: #c82814;
+  --outlineColor: #bde0ff;
+  background: var(--buttonColor);
+  color: white;
+}
+.plan-confirm-btn:hover {
+  background-color: #fff;
+  border: 3px solid;
+  border-color: #c82814;
+}
+
+.select-plan-heading {
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  .plan-days-box,
+  .plan-choose-btn-box,
+  .plan-price-box {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 768px) {
+  .ant-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+/* Media query for screens less than 576px wide */
+@media (max-width: 576px) {
+  .plan-days-box,
+  .plan-choose-btn-box,
+  .plan-price-box {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}

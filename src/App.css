@@ -1,0 +1,34 @@
+.App{
+    display: flex;
+    flex-direction: column; 
+}
+
+.offer-img1{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 40%;
+    right: 10px;
+    top: 100px;
+}
+
+.offer-img2{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50%;
+    left: 10px;
+    top:800px;
+}
+.banner-img{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    right: 10px;
+    top: 50px;
+    z-index: -10;
+    width: 100%;
+}   

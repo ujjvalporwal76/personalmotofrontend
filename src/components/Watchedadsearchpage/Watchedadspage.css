@@ -1,0 +1,129 @@
+.watched-page {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  position: relative;
+}
+.watched-page-header-section {
+  background-color: #ebecef;
+  margin-top: 50px;
+}
+.watched-page-header-box {
+  max-width: 1180px;
+  margin: auto;
+}
+.watched-page-header {
+  display: flex;
+  padding: 32px 0;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+.watched-page-heading {
+  color: #020309;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial,
+    sans-serif;
+  font-weight: 700;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 24px;
+  line-height: 26px;
+  margin: 10px 0 3px;
+}
+.ads-search-tabs-box {
+  display: flex;
+  width: fit-content;
+}
+.ad-search-btn-active {
+  -webkit-box-align: center;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: inline-flex;
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+  font-size: 14px;
+  -webkit-box-pack: center;
+  justify-content: center;
+  line-height: 18px;
+  margin: 0;
+  padding: 16px 24px;
+  white-space: nowrap;
+  border-bottom: 2px solid #0071ce;
+  color: #0071ce;
+  font-weight: 700;
+}
+.ads-search-tabs-box > .ad-search-btn {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  border-bottom: solid 1px #a1a2a5;
+  color: #66676c;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  font-size: 14px;
+  font-weight: 400;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  line-height: 18px;
+  margin: 0;
+  padding: 16px 24px;
+  white-space: nowrap;
+}
+
+.watched-ads-show-section {
+  max-width: 1180px;
+  margin: auto;
+}
+.watched-ads-show-box {
+  padding: 64px 16px;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  min-height: 400px;
+}
+.watched-ads-content {
+  max-width: 730px;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  text-align: center;
+}
+.watched-ads-none-box {
+  display: flex;
+}
+.watched-ads-none-heading {
+  padding-top: 32px;
+  font-size: 20px;
+  line-height: 22px;
+  font-weight: 700;
+  color: #020309;
+  margin: 0;
+}
+.watched-ads-none-para {
+  padding-top: 32px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #020309;
+  margin: 0;
+}
+
+.watched-ads-none-box img {
+  width: 300px;
+  height: 300px;
+}

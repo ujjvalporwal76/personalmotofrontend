@@ -1,0 +1,179 @@
+.advertisements-page {
+  background: #fff;
+}
+
+.user-ads-box,
+.user-ads-show-box {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 8px;
+  padding-right: 8px;
+  max-width: 1180px;
+}
+.ads-catg-tab-show {
+  text-align: center;
+  line-height: 22px;
+  padding: 16px 24px;
+  color: rgb(2, 3, 9);
+  font-weight: unset;
+  font-size: 16px;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  box-shadow: none;
+  width: auto;
+}
+.ads-catg-tab {
+  text-align: center;
+  line-height: 22px;
+  padding: 16px 24px;
+  color: rgb(2, 3, 9);
+  font-weight: unset;
+  font-size: 16px;
+  background-color: rgb(235, 236, 239);
+  border: none;
+  box-shadow: none;
+  width: auto;
+}
+.ads-catg-search-box {
+  display: flex;
+  flex-flow: wrap;
+  align-items: flex-start;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  padding: 1rem;
+  width: 100%;
+}
+.ads-catg-search-box-i {
+  margin-bottom: 10px;
+  display: flex;
+  flex-flow: wrap;
+  -webkit-box-pack: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.ads-catg-box {
+  width: 100%;
+  margin: 0px 0px 10px;
+}
+.ads-catg-box-i {
+  position: relative;
+}
+.ads-catg-box-i select {
+  background-color: #fff;
+  border: 1px solid black;
+}
+.ads-search-box {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.ads-search-box-i {
+  width: 100%;
+  position: relative;
+}
+.ads-search-box-i input {
+  background-color: #fff;
+  border: 1px solid black;
+}
+.ads-search-input {
+  height: 44px;
+  width: 100%;
+  border-radius: 4px;
+}
+.ads-search-btn {
+  position: absolute;
+  top: 2px;
+  right: 1px;
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  text-align: center;
+}
+
+.ads-total-box {
+  display: flex;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.ads-total {
+  position: relative;
+  top: 1px;
+}
+
+.no-ads-box {
+  background: url("https://statics.otomoto.pl/static/otomotopl/packed/img/2f6e8e28e13c79f69b68bfe40d1910be14.png")
+    center bottom no-repeat;
+  margin: 100px 0 200px;
+  padding: 0 0 280px;
+  position: relative;
+  text-align: center;
+}
+
+.no-ads-heading {
+  margin-bottom: 28px;
+  font-size: 24px;
+  color: #57585a;
+  font-weight: 600;
+  line-height: 1.2em;
+  padding: 0;
+}
+
+.no-ads-start-sell-btn {
+  background: #c82814;
+  box-shadow: 0 1px 2px #af4d41;
+  border: none;
+  border-radius: none !important;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  height: 36px;
+  line-height: 36px;
+  padding: 0 20px;
+  text-align: center;
+  transition: background-color 0.3s ease;
+  white-space: nowrap;
+  vertical-align: middle;
+  font-weight: 500;
+}
+
+@media (min-width: 768px) {
+  .ads-catg-search-box {
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 1rem 1.25rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .ads-catg-search-box-i {
+    width: 100%;
+    flex-flow: row;
+    margin-right: 10px;
+    margin-bottom: 0px;
+  }
+}
+@media (min-width: 768px) {
+  .ads-catg-box {
+    width: 275px;
+    margin: 0px 10px 0px 0px;
+  }
+}
+@media (min-width: 768px) {
+  .ads-search-box {
+    width: 275px;
+    margin-bottom: 0px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .no-ads-box {
+    float: left;
+    width: 1010px;
+  }
+}

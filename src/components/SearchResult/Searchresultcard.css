@@ -1,0 +1,184 @@
+.search-result-card-box {
+  padding-left: 4px;
+  padding-right: 4px;
+  width: 80%;
+}
+a {
+  color: #020309;
+  text-decoration: none;
+}
+.search-card .ant-col {
+  max-height: 180px;
+}
+.search-card {
+  border-radius: 4px;
+  position: relative;
+  border: solid 1px #dcdde0;
+  background-color: #ecf5fe;
+}
+.search-card-in-row {
+  margin: auto;
+  padding: 16px;
+  column-gap: 16px;
+}
+.search-card-img {
+  visibility: visible;
+  object-position: center;
+  object-fit: cover;
+  border-radius: 4px;
+  aspect-ratio: 4/3;
+  width: 100%;
+  height: 100%;
+}
+.search-card-img-box {
+  position: relative;
+  grid-area: thumbnail;
+  border-radius: 4px;
+  overflow: hidden;
+  aspect-ratio: 4/3;
+  max-width: 240px;
+}
+.search-card-heading {
+  font-size: 16px;
+  line-height: 20px;
+  color: #020309;
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  font-weight: 600;
+  text-overflow: ellipsis;
+}
+.search-card-feature {
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #66676c;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+}
+.search-card-details-box {
+  margin-top: 16px;
+}
+.search-card-type-btn {
+  background-color: #bde0ff;
+  color: #020309;
+}
+.search-card-details-main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 18px;
+  margin: 8px 0;
+
+  color: #020309;
+}
+dl,
+dt,
+dd {
+  margin-bottom: 0;
+}
+
+.search-card-details-dt {
+  display: none;
+}
+.search-card-details-dd {
+  height: 18px;
+  display: grid;
+  grid-auto-flow: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  grid-template-columns: max-content;
+  -webkit-column-gap: 6px;
+  column-gap: 6px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  white-space: nowrap;
+}
+.search-card-other-dl {
+  display: grid;
+  row-gap: 8px;
+  grid-auto-flow: row;
+}
+.search-card-other-dd {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: max-content;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-column-gap: 6px;
+  column-gap: 6px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #020309;
+}
+.search-card-price-box {
+  float: right;
+  justify-self: end;
+}
+.search-card-price-box-i {
+  display: grid;
+  grid-template-areas:
+    "gross currency"
+    "net net";
+  -webkit-column-gap: 4px;
+  column-gap: 4px;
+  color: brown;
+}
+.search-card-price-heading {
+  color: #020309;
+  margin: 0;
+  grid-area: gross;
+  white-space: nowrap;
+  font-weight: 600;
+  line-height: 26px;
+  justify-self: end;
+  font-size: 24px;
+  color: #c82814;
+}
+
+.search-card-price-currency {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #020309;
+  margin: 0;
+  color: #c82814;
+  font-weight: 400;
+  line-height: 18px;
+  font-size: 14px;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+.search-card-price-col {
+  display: grid;
+}
+.search-card-action-box {
+  display: flex;
+  align-items: end;
+  justify-items: end;
+  flex-flow: row-reverse nowrap;
+  gap: 8px;
+}
+.search-card-action-btn {
+  outline: none;
+  border: none;
+  background: none;
+  color: #0071ce;
+}
+.search-card-wishlist-icon {
+  color: #0071ce;
+  height: 24px;
+  width: 24px;
+  font-weight: 500;
+}

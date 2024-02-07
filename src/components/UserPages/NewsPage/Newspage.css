@@ -1,0 +1,206 @@
+.news-page {
+  background: #fff;
+}
+.news-catg-tab-box {
+  height: 100%;
+  gap: 16px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  width: 100%;
+  max-width: 1180px;
+  margin-bottom: 0;
+}
+
+.news-catg-tab-show {
+  text-align: center;
+  line-height: 22px;
+  padding: 16px 24px;
+  color: rgb(2, 3, 9);
+  font-weight: unset;
+  font-size: 16px;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  box-shadow: none;
+  width: auto;
+}
+
+.news-catg-tab {
+  text-align: center;
+  line-height: 22px;
+  padding: 16px 24px;
+  color: rgb(2, 3, 9);
+  font-weight: unset;
+  font-size: 16px;
+  background-color: rgb(235, 236, 239);
+  border: none;
+  box-shadow: none;
+  width: auto;
+}
+
+.news-catg-page {
+  display: none;
+}
+.news-catg-page-show {
+  margin: 10px auto auto 30px;
+  height: 100%;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  background-color: rgb(255, 255, 255);
+  box-shadow: none;
+  border-bottom: 1px solid transparent;
+}
+.news-content-box {
+  flex: 1 1 0%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  background-color: rgb(255, 255, 255);
+  max-width: 1180px;
+}
+.news-content-box-o {
+  height: 100%;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  background-color: rgb(255, 255, 255);
+  box-shadow: none;
+  border-bottom: 1px solid transparent;
+}
+
+.news-content-box-i {
+  flex: 1 1 0%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  background-color: rgb(255, 255, 255);
+  max-width: 1180px;
+}
+
+.news-search-box {
+  align-items: flex-start;
+  display: flex;
+  flex-flow: wrap;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  margin: 0px -8px;
+}
+
+.news-catg-search-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 25px;
+}
+.news-catg-search-label {
+  line-height: 1.29;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 6px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: auto;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial,
+    sans-serif;
+  text-transform: none;
+  color: rgb(102, 103, 108);
+  transition: all 0.2s ease-in-out 0s;
+}
+.news-catg-search-box-o {
+  display: flex;
+  margin-top: 0px;
+  flex-direction: row;
+  -webkit-box-align: center;
+  align-items: center;
+  margin-bottom: 0px;
+}
+
+.news-catg-search-box-i {
+  position: relative;
+  width: 280px;
+  margin-right: 16px;
+}
+.no-result-box {
+  height: 100%;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  margin-top: 50px;
+  background-color: rgb(255, 255, 255);
+  min-height: 500px;
+}
+.no-result-box-o {
+  flex: 1 1 0%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  background-color: rgb(255, 255, 255);
+  max-width: 1180px;
+}
+.no-result-box-i {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  margin: 64px auto 12px;
+}
+.no-result-box-i img {
+  display: flex;
+  width: 200px;
+  height: 100%;
+}
+.no-result-heading {
+  font-size: 20px;
+  line-height: 22px;
+  font-weight: 700;
+  text-align: center;
+  color: rgb(2, 3, 9);
+  margin: 24px 0px 16px;
+}
+.no-result-para {
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  color: rgb(2, 3, 9);
+  margin: 0px;
+  white-space: pre-wrap;
+}
+@media screen and (width < 768px) {
+  .news-catg-tab-show {
+    font-size: 12px;
+    width: 20%;
+  }
+  .news-catg-tab {
+    font-size: 12px;
+    width: 20%;
+  }
+  .news-catg-tab-box {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .no-result-para {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}

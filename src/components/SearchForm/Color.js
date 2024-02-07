@@ -1,0 +1,64 @@
+const Colors = [
+    {
+        id:"1",
+        color:"White"
+    },
+    {
+        id:"2",
+        color:"Blue"
+    },
+    {
+        id:"3",
+        color:"Black"
+    },
+    {
+        id:"4",
+        color:"Brown"
+    },
+    {
+        id:"5",
+        color:"Claret"
+    },
+    {
+        id:"6",
+        color:"Red"
+    },
+    {
+        id:"7",
+        color:"Purple"
+    },
+    {
+        id:"8",
+        color:"Navy"
+    },
+    {
+        id:"9",
+        color:"Orange"
+    },
+    {
+        id:"10",
+        color:"Silver"
+    },
+    {
+        id:"11",
+        color:"Gray"
+    },
+    {
+        id:"12",
+        color:"Green"
+    },
+    {
+        id:"13",
+        color:"Golden"
+    },
+    {
+        id:"14",
+        color:"Yellow"
+    },
+    {
+        id:"15",
+        color:"Different Color"
+    },
+]
+
+export default Colors;

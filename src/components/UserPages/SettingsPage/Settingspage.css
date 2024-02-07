@@ -1,0 +1,177 @@
+.settings-page {
+  background: #fff;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.settings-page .accordion {
+  width: 80%;
+  margin: auto;
+  margin-top: 40px;
+}
+.settings-page .accordion-item {
+  margin-bottom: 18px;
+  background: #f6f6f8;
+  box-shadow: 0 1px 3px rgba(20, 35, 85, 0.17);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.settings-page .accordion-header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+.accordion-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Horizontal alignment, can be 'flex-start', 'flex-end', or 'center' */
+  justify-content: center; /* Vertical alignment, can be 'flex-start', 'flex-end', or 'center' */
+  width: 200px; /* Adjust the button width as needed */
+  height: 150px; /* Adjust the button height as needed */
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+.accordion-button svg {
+  width: 100px;
+  height: 100px;
+  margin: 10px auto;
+  display: inline-block;
+  vertical-align: middle;
+}
+.accordion-button p {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 10px auto;
+}
+.accordion-button::after {
+  display: none;
+}
+.accordion-collapse {
+  width: 100%;
+}
+.settings-catg-tab-box {
+  height: 100%;
+  gap: 16px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  width: 100%;
+  max-width: 1180px;
+  margin-bottom: 0;
+}
+
+.settings-catg-tab-show {
+  text-align: center;
+  line-height: 22px;
+  padding: 16px 24px;
+  color: rgb(2, 3, 9);
+  font-weight: unset;
+  font-size: 16px;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  box-shadow: none;
+  width: auto;
+}
+
+.settings-catg-tab {
+  text-align: center;
+  line-height: 22px;
+  padding: 16px 24px;
+  color: rgb(2, 3, 9);
+  font-weight: unset;
+  font-size: 16px;
+  background-color: rgb(235, 236, 239);
+  border: none;
+  box-shadow: none;
+  width: auto;
+}
+.user-update-form {
+  padding: 0 24px 10px;
+  width: 100%;
+}
+.update-input-box {
+  position: relative;
+  display: block;
+  width: 100%;
+  min-height: 70px;
+  padding: 10px;
+}
+.update-input-label {
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 600;
+  position: relative;
+}
+
+.update-input {
+  width: calc(100% + 7px) !important;
+  margin-top: 5px;
+  margin-left: -4px;
+  background: #fff;
+  box-shadow: 0 1px 2px -1px rgba(0, 0, 0, 0.36);
+  border: 1px solid #d9dee8;
+  color: #555;
+  display: inline-block;
+  font-size: 13px;
+  height: 42px;
+  padding: 9px 12px 8px;
+  vertical-align: middle;
+}
+.update-input:focus {
+  outline: none;
+}
+.update-form-btn-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+.update-form-btn {
+  background: #c82814;
+  box-shadow: 0 1px 2px #af4d41;
+  border: none;
+  border-radius: none !important;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  height: 36px;
+  line-height: 36px;
+  padding: 0 20px;
+  text-align: center;
+  transition: background-color 0.3s ease;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+.update-form-btn:hover {
+  background: #b31f14;
+}
+
+.update-error {
+  margin: 4px 0 0;
+  color: #d23214 !important;
+  text-transform: none !important;
+  font-weight: 600;
+  font-size: 11px;
+}
+.settings-catg-page {
+  display: none;
+}
+.settings-catg-page-show {
+  height: 100%;
+  display: block;
+}
+@media screen and (width <768px) {
+  .settings-catg-tab-box {
+    display: none;
+  }
+}

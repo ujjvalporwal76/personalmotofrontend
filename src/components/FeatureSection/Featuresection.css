@@ -1,0 +1,35 @@
+.feauted-product-heading {
+  line-height: 34px;
+  font-weight: 700;
+  color: #020309;
+  margin: 20px;
+
+  font-size: 22px;
+}
+
+.feature-product-section {
+  display: contents;
+  justify-content: center;
+  width: 60%;
+}
+
+.feaute-product-header {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.show-feature-product-link {
+  margin: 10px 20px;
+}
+
+.feature-product-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap; /* Prevent wrapping to the next line */
+  overflow-x: auto; /* Enable horizontal scroll */
+  scroll-behavior: smooth;
+  white-space: nowrap; /* Prevent wrapping */
+  padding: 10px 0; /* Optional padding for spacing */
+}
